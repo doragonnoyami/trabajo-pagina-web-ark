@@ -6,7 +6,7 @@
 </head>
 <body>
     <header>
-        <h1>Criaturas</h1> 
+        <h1 id="inicio">Criaturas</h1> 
     </header>
         <nav class="contenedor">
             <div class="enlaces">
@@ -16,6 +16,7 @@
                 <a href="recursos.html" type="style/text"> RECURSOS  </a>
                 <a href="bosses.html"type="style/text"> BOSSES </a>
                 <a href="tameo.html"type="style/text"> TAMEO  </a>
+                <a href="quizz.html"type="style/text"> QUIZZ  </a>
             </div>
         </nav>
     <div class="prese">
@@ -206,5 +207,29 @@
             </tbody>
         </table>    
     </div>
+    <div class="vota">
+        <p>
+            Aqui te dejaremos un espacio para que puedas dejarnos cual es en tu opinion la mejor criatura de este juego.
+        </p>
+    </div>
+    <div class="vot">
+    <h1>Votá tu criatura favorita de ARK</h1>
+
+    <div class="centrado" id="bloqueVotacion">
+        <div class="votacion" id="formularioVotacion">
+          <label for="criatura">Nombre de la criatura:</label>
+          <input type="text" id="criatura" placeholder="Ej: Giganotosaurus">
+          <button onclick="enviarVoto()">Enviar voto</button>
+        </div>
+    </div>
+  
+    <p id="mensaje">Tu voto ha sido enviado.</p>
+    </div>
+    <div class="volver">
+        <p>
+            <a href="#inicio">Volver al inicio.</a>
+        </p>
+    </div>
+    <script src="dino.js"></script>
 </body>
 </html>

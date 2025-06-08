@@ -620,3 +620,123 @@ table th, .table td{
     width: 80%;
     font-size: 25px;
 }
+.qz{
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    font-size: 25px;
+}
+#resultado {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 30px;
+}
+#pregunta {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.opcion {
+    font-size: 30px;
+    background:var(--color6);
+    border: 15px;
+    color: var(--blanco);
+    padding: 15px ;
+    margin: 0 auto;
+    cursor: pointer;
+    width: 85%;
+    border-radius: 40px;
+    display: block;
+}
+.opcion:hover {
+    background: var(--violeta);
+}
+.puntos{
+    font-size: 20px;
+    margin-top: 15px;
+    color:var(--color4);
+}
+.volver{
+    font-size: 25px;
+    margin: 15px;
+    width: auto;
+    text-align: end;
+    color: var(--metal);
+    text-decoration: none;
+}
+.volver a{
+    font-size: 25px;
+    margin: 15px;
+    width: auto;
+    text-align: end;
+    color: var(--metal);
+    text-decoration: none;
+}
+.volver a:hover{
+    color: var(--naranja);
+}
+.centrado {
+    display: flex;
+    justify-content: center;   /* Centrado horizontal */
+    align-items: center;       /* Centrado vertical */
+    margin: 20px;
+  }
+
+  .votacion {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  #mensaje {
+    display: none;
+    font-size: 18px;
+    color: #00ffcc;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  /* Esto es para cuando el formulario desaparece */
+  .centrado.oculto {
+    display: none;
+  }
+  .vot{
+    font-size: 25px;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+  }
+  .vota{
+    font-size: 25px;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+  }

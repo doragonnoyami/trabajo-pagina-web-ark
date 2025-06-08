@@ -6,7 +6,7 @@
 </head>
 <body>
     <header>
-        <h1>Ark Survival Ascended</h1> 
+        <h1 id="inicio">Ark Survival Ascended</h1> 
     </header>
         <nav class="contenedor">
             <div class="enlaces">
@@ -16,6 +16,7 @@
                 <a href="criaturas.html" type="style/text"> CRIATURAS  </a>
                 <a href="recursos.html" type="style/text"> RECURSOS  </a>
                 <a href="tameo.html"type="style/text"> TAMEO  </a>
+                <a href="quizz.html"type="style/text"> QUIZZ  </a>
             </div>
         </nav>
     <div class="exp">
@@ -293,6 +294,31 @@
             En el juego Hati y Skoll son dos lobos feroces que custodian la piedra del portal hacia el monte donde esta encadenado en Fenrir.
         </p>
         <img src="hatiYskoll.jpg" width="500" alt="500">
+    </div>
+
+    <div class="vota">
+        <p>
+            Aqui te dejaremos un espacio para que puedas darnos tu opinion sobre el jefe mas dificil del juego.
+        </p>
+    </div>
+    <div class="vot">
+    <h1>Votá el jefe mas dificil del juego</h1>
+
+    <div class="centrado" id="bloqueVotacion">
+        <div class="votacion" id="formularioVotacion">
+          <label for="boss">Nombre del jefe:</label>
+          <input type="text" id="boss" placeholder="Ej: Megapithecus">
+          <button onclick="enviarVoto()">Enviar voto</button>
+        </div>
+    </div>
+  
+    <p id="mensaje">Tu voto ha sido enviado.</p>
+    </div>
+    <script src="bos.js"></script>
+    <div class="volver">
+        <p>
+            <a href="#inicio">Volver al inicio.</a>
+        </p>
     </div>
 </body>
 </html>
